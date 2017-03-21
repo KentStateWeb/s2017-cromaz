@@ -2,3 +2,8 @@ body {
 font-family: "Raleway";
 color:black;
 }
+
+a {
+  color:pink;
+  text-decoration: none;
+}
