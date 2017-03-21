@@ -1,17 +1,10 @@
 body {
- background-color: white;
- color: #FFFFFF;
+
 }
 h1 {
- color: #black;
- text-align: center;
  font-family: "raleway",sans-serif;
 
 }
 p {
- background-color: white;
- color: #333300;
- text-align: right;
- border: 3px groove #FFFF33;
  font-family: "raleway",sans-serif;
 }
