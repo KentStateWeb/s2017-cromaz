@@ -2,7 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 color:black;
 }
-
+h1{
+  text-transform: uppercase;
+  text-decoration: underline;
+}
 a {
   color:pink;
   text-decoration: none;
