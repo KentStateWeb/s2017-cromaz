@@ -1,9 +1,10 @@
 body {
-  font-family: 'BioRhyme', serif;
+  font-family: 'Open Sans', sans-serif;
 color:black;
 padding-left: 2em;
 }
 h1{
+  font-family: 'BioRhyme', serif;
   text-transform: uppercase;
   text-decoration: underline;
 }
