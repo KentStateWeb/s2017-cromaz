@@ -1,10 +1,19 @@
 body {
   max-width: 1000px;
   padding: 1em;
-  font-family: 'Sanchez', serif;
-  color:grey;
+
 
 }
+
+h1, h2, h3, h4, {
+  font-family: 'Droid', serif;
+color:grey;
+
+}
+
+p {
+  font-family: 'Sanchez', serif;
+color:grey;}
 
 div, section, main, aside, header, footer {
   border: 1px solid lightgray;
