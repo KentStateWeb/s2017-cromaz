@@ -16,3 +16,9 @@ div, section, main, aside, header, footer {
 ul {
   list-style-type:none;
 }
+
+a {
+  text-decoration:none;
+  font-family: 'Sanchez', serif;
+  font-style:italic;
+  color: rgb(208,104,135);
