@@ -1,82 +1,66 @@
 body {
-  max-width: 1000px;
+  max-width: 100%;
     font-family: 'Sanchez', serif;
-    color:grey;
-    align:center;
-    margin: auto;
-   width: 100%;
-   margin: 0 auto;
-    margin-left: 2em;
-    margin-right:2em;
+    margin:0;
+    min-width: 300px;
+
+   }
+
+header{
+     padding:.8em;
    }
 
 
+
 .logo {
-  width:50px;
-  display: inline-block;
-  white-space: nowrap;
+  width:90px;
+  font-family: 'Droid Serif', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin:auto;
 }
 
-
-.navigation li a {
-        display: block;
-            border-bottom: 1px solid #000;
-            padding: 1em;
-            float:right;
-            color:grey;
-        }
-
-        @media all and (min-width: 40em) {
-            .navigation li {
-                display: inline-block;
-                margin: 0 0.5em;
-                float:right;
-
-            }
-            .navigation li a {
-                padding: 1em 0.5em;
-                border: 0;
-                float:right;
-
-            }
-        }
-
-
-
-h1 {color:grey;
+h1 {
+  color:rgb(135,135,135);;
   font-family: 'Droid Serif', serif;
+padding-bottom:1em;
+  margin-top: 1em;
+    letter-spacing: 1px;
 
 }
 
 h2 {
-  color:grey;
+  color:; rgb(135,135,135);
   text-transform:uppercase;
   font-family: 'Droid Serif', serif;
-  font-size:12pt;
-}
-
-p {
-  color:grey;
-  font-family: 'Sanchez', serif;
+  font-size:1.4em;
   border-bottom-style: dotted;
   padding-bottom:1em;
+    margin-top: 2em;
+      letter-spacing: 1px;
+
+}
+
+h4
+{
+color:rgb(208,134,135)
 
 }
 
 
 
 
+p {
+  color:rgb(135,135,135);;
+  font-family: 'Sanchez', serif;
+  letter-spacing: 1px;
+  line-height: 1.6em;
 
-ul .top {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  display: inline;
+
 }
 
-li .top{
-  display: inline;
-}
+
 
 ul {
     list-style-type: none;
@@ -85,55 +69,511 @@ ul {
   text-decoration: none;
 }
 
+nav {
+
+	font-family: 'Sanchez', serif;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+
+}
+
+
+nav a {
+	text-decoration: none;
+	color: rgb(35,95,97);
+	letter-spacing: 2px;
+	font-size: 1em;
+	font-family: 'Sanchez', serif;
+	text-transform: uppercase;
+
+  transition: all .2s ease;
+transition-property: all;
+transition-duration: 0.2s;
+transition-timing-function: ease;
+transition-delay: initial;
+
+}
+
+nav ul li {
+  	text-align: center;
+    font-size: .8em;
+  	width:40%;
+  	padding-top: .25em;
+  	margin-bottom: .5em;
+    margin-top:.35em;
+  	line-height: 1;
+    padding-left: 1em;
+    padding-right:1em;
+
+  }
+
+
+/* Navigation */
+
+
+/* Index Hero */
+
+.hero-image {
+    height: 40vh;
+    background-image: url("../images/daycare-D1-stock1-1913.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image p {
+  font-family: 'Sanchez', serif;
+}
+
+.hero-image h1 {
+  font-family: 'Droid Serif', serif;
+  letter-spacing: 2px;
+  color:white;
+  padding-bottom:0em;
+    margin-top: 0em;
+      letter-spacing: 2px;
+
+}
+
+
+
+.hero-image__container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 100%;
+}
+
+.hero-image__text h1 p{
+    z-index: 100;
+    padding: 1em;
+    color: white;
+    font-family: 'Droid Serif', serif;
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: .5px .5px grey;
+}
+
+/* All this does is add a 50% black background on top of the image */
+.hero-image:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100,100,100,.3);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+.hero-paragraph {
+  margin:  5em 1em 5em 1em;
+  line-height: 2em;
+
+}
+
+.hero-paragraph h3 {
+  font-size: 1.8em;
+
+}
+
+/* Index Hero */
+
+.hero-image2 {
+    height: 90vh;
+    background-image: url("../images/daycare.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image2 p {
+  font-family: 'Sanchez', serif;
+}
+
+.hero-image2 h1 {
+  font-family: 'Droid Serif', serif;
+  letter-spacing: 2px;
+  color:white;
+  padding-bottom:0em;
+    margin-top: 0em;
+      letter-spacing: 2px;
+
+}
+
+/* All this does is add a 50% black background on top of the image */
+.hero-image2:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100,100,100,.3);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
+
+.hero-image3 {
+    height: 40vh;
+    background-image: url("../images/shutterstock_1411069031.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image3 p {
+  font-family: 'Sanchez', serif;
+}
+
+.hero-image3 h1 {
+  font-family: 'Droid Serif', serif;
+  letter-spacing: 2px;
+  color:white;
+  padding-bottom:0em;
+    margin-top: 0em;
+      letter-spacing: 2px;
+
+}
+
+/* All this does is add a 50% black background on top of the image */
+.hero-image3:after {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100,100,100,.3);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+
 .button {
-    padding: 1em 4em 1em 4em;
+    padding: 1em 7em 1em 7em;
     display: inline-block;
     background-color: rgb(35,95,97);
     color: white;
-    	border-radius: 5px;
+    	border-radius: 3px;
     text-decoration: none;
     	text-transform: uppercase;
     font-family: 'Sanchez', serif;
     transition: .3s background-color ease-in-out;
+    letter-spacing: 2px;
+
+
 
 }
+
+.button2 {
+    padding: .5em .8em .5em .8em;
+    background-color: rgb(35,95,97);
+    color: white;
+    	border-radius: 3px;
+    text-decoration: none;
+    	text-transform: uppercase;
+    font-family: 'Sanchez', serif;
+    transition: .3s background-color ease-in-out;
+    letter-spacing: 2px;
+    margin-top: -27px;
+  }
+
+
+
+
+
 
 /* Add a hover/focus effect */
 .button:hover, .button:focus {
     background-color: rgb(151,201,171);
 }
 
-footer {
-  background-color: rgb(151,201,171);
-  color: white;
-  padding: 1em 1em 1em 1em;
+.button2:hover, .button2:focus {
+    background-color: rgb(151,201,171);
+}
+
+
+.news {
+  background-color: rgb(240,240,240);
+  padding:1em;
+  margin-top: 1em;
+  line-height: 1.8em;
+}
+
+
+
+/* If you're using images in your slider, add this CSS to ensure they take up 100% of the available area */
+
+.carousel-cell {
+    width: 100%;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
+
+/* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
+.carousel:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+.test {
+  padding: 1em;
+  background: linear-gradient(to right, rgb(208,134,135) 0%,rgb(208,134,160) 89%);
+  color:white;
+  font-size: 1.8em;
+  text-align:center;
+}
+
+.girl {
+  margin-top:5em;
+width:100%;
+  display:flex;
+  flex-flow:row wrap;
+}
+.section2 {
+  display:flex;
   margin-top:2em;
 }
 
-@media screen and (min-width: 1000px) {
-  p {
+.block {
+  display:inline-block;
+}
+
+/*
+.team1 {
+margin-top:2em;
+width: 20%;
+height: 20%;
+background-image: url("../images/staff/img_1874.jpg");
+}
+
+
+
+
+.team2 {
+  margin-top:2em;
+  width: 20%;
+  height: 20%;
+  background-image: url("../images/staff/img_1874.jpg");
+}
+
+.team3 {
+  margin-top:2em;
+  width: 20%;
+  height: 20%;
+  background-image: url("../images/staff/img_1874.jpg");
+}
+
+.team4 {
+  margin-top:2em;
+  width: 20%;
+  height: 20%;
+  background-image: url("../images/staff/img_1874.jpg");
+}
+*/
+
+
+.team1img {
+margin-top:2em;
+width: 50%;
+height: 50%;
+}
+
+.team2img {
+  margin-top:2em;
+  width: 50%;
+  height: 50%;
+}
+
+.team3img {
+  margin-top:2em;
+  width: 50%;
+  height: 50%;
+}
+
+.team4img {
+  margin-top:2em;
+  width: 50%;
+  height: 50%;
+}
+
+
+
+footer {
+  background: linear-gradient(to right, rgb(151,201,171) 0%,rgb(35,95,97) 89%);
+  color: white;
+  padding: 1em;
+  margin-top:2em;
+   text-align: center;
+   line-height: 1.6em;
+   width:100%;
+}
+
+footer a{
+  color: rgb(151,201,171);
+
+}
+
+@media screen and (min-width: 500px) {
+	nav a {
+		font-size: 1.1em;
+	}
+}
+
+nav a:hover, nav a:focus, .active a {
+	color: rgb(151,201,171);
+
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	/*margin-bottom: .5em;
+	width: 100%;
+	flex-wrap: wrap;
+
+
+}
+
+nav ul li {
+	text-align: center;
+  font-size: .8em;
+	width:75%; /* was 25%
+	padding-top: .25em;
+	margin-bottom: .5em;
+  margin-top:.35em;
+	line-height: 1;
+  padding-left: 1em;
+  padding-right:1em;
+
+}
+
+nav ul li:before {
+	content: none;
+}
+
+
+
+nav ul li a.active {
+	font-weight: bold;
+}
+
+
+nav ul li:last-child:after {
+	content: "";
+	width: 0;
+	padding: 0;
+}
+
+@media screen and (min-width:600px) {
+
+.logo {
+  width:45px;
+  display: inline;
+  white-space: nowrap;
+  font-family: 'Droid Serif', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 100;
+  align: center;
+}
+
+nav a {
+  font-size: 1.2em;
+}
+nav {
+  margin-top: .35em;
+  margin-bottom: 1.3em;
+    padding-top: .1em;
+    position:absolute;
+    right:20px;
+}
+
+}
+
+@media screen and (min-width:650px) {
+
+	nav {
+		padding: .5em;
+		max-width: 550px;
+	}
+	nav ul {
+		width: auto;
+		justify-content: space-between;
+	}
+	nav ul li {
+		width: inherit;
+	}
+
+}
+
+
+
+@media screen and (min-width:880px) {
+	nav {
+		background-color: inherit;
+		border-top: none;
+		margin-top: 0em;
+		margin-bottom: inherit;
+		margin: inherit;
+		padding-right: 0;
     font-size: 1.2em;
-    line-height: 1.5;
-  }
-  h1 {
-    font-size: 2em;
+    padding-top: 1em;
+	}
+
+	nav ul {
+		margin-right: 0;
+	}
+
+	nav ul li:after {
+		padding-left: 1em;
+		padding-right: 1em;
+
+	}
+
+	nav a {
+		font-size: 1.15em;
+	}
+
+  .logo {
+    width:65px;
+    display: inline;
+    white-space: nowrap;
+    font-family: 'Droid Serif', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    align: center;
+    margin: .25%;
   }
 
-  h2{
-    font-size: 1.5em;
-  }
+}
 
-  figure {
-    float: right;
-    width: 50%;
-    margin: 1.5em 0em 1em 0em;
-    margin-left:5%;
-  }
+@media screen and (min-width: 1200px) {
+	nav {
+		margin-bottom: 0;
+    text-align: left;
+	}
 
-  body {
-      font-family: 'Sanchez', serif;
-      color:grey;
-      margin: auto;
-     width: 100%;
-     margin-left: 2em;
-     }
+
+
+	nav a {
+		font-size: 1.2em;
+	}
+
+	nav ul {
+		flex-wrap: nowrap;
+	}
+
+
+
+}
