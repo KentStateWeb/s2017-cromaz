@@ -248,6 +248,7 @@ body {
 .hero-paragraph {
   margin:  1em 1em 1em 1em;
   line-height: 2em;
+  max-width:1000px;
 
 }
 
@@ -259,7 +260,7 @@ body {
 /* Index Hero */
 
 .hero-image2 {
-    height: 90vh;
+    height: 50vh;
     background-image: url("../images/daycare.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -285,7 +286,6 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(200,200,200,.9);
     top: 0;
     left: 0;
     display: block;
@@ -391,10 +391,15 @@ body {
 
 
 .news {
-  background-color: rgb(240,240,240);
-  padding:1em;
 
+  padding:1em;
   line-height: 1.8em;
+    background-color: rgb(240,240,240);
+    background-position: right top;
+}
+.color
+{
+    background-color: rgb(240,240,240);
 }
 
 
@@ -430,11 +435,11 @@ width:100%;
   flex-flow:row wrap;
   margin:0;
 }
-.section2 {
-  display:flex;
-}
 
-.block {
+
+.container {
+
+  display:flex;
 
 
 }
@@ -512,6 +517,47 @@ footer {
 footer a{
   color: rgb(151,201,171);
 
+}
+
+
+.accordion {
+    margin:0 auto;
+    padding:1em 0em 1em 0em;
+    width: 90%
+}
+
+.accordion li {
+    list-style:none;
+    width:100%;
+    }
+
+.accordion li label {
+    padding:10px;
+    display:block;
+    background-color:rgb(35,95,97);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    }
+
+/* Hide the radio buttons */
+.accordion label + input[type='radio'] {
+    display: none;
+}
+
+/* hide content by default */
+.accordion .content {
+  max-height: 0;
+    overflow: hidden;
+    display: block;
+    transition: none;
+}
+
+.accordion label + input[type='radio']:checked + .content {
+    max-height: 50em;
+    padding:.5em;
+    overflow: visible;
+    transition: .7s max-height ease;
 }
 
 @media screen and (min-width: 445px){
