@@ -1,13 +1,8 @@
-body {
-  max-width: 100%;
-    font-family: 'Sanchez', serif;
-    margin:0;
-    min-width: 300px;
 
-   }
 
 header{
-     padding:.8em;
+     padding:.8em 0em .8em 0em;
+     text-align: center;
    }
 
 
@@ -19,14 +14,15 @@ header{
   letter-spacing: 2px;
   font-weight: 100;
   margin:auto;
+  padding-bottom:1em;
 }
 
 h1 {
-  color:rgb(135,135,135);;
+  color:white;
   font-family: 'Droid Serif', serif;
-padding-bottom:1em;
+
   margin-top: 1em;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 
 }
 
@@ -37,7 +33,6 @@ h2 {
   font-size:1.4em;
   border-bottom-style: dotted;
   padding-bottom:1em;
-    margin-top: 2em;
       letter-spacing: 1px;
 
 }
@@ -56,6 +51,18 @@ p {
   font-family: 'Sanchez', serif;
   letter-spacing: 1px;
   line-height: 1.6em;
+
+
+}
+
+
+blockquote {
+  color:white;
+  font-family: 'Sanchez', serif;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  font-size:.7em;
+  margin:0;
 
 
 }
@@ -107,17 +114,26 @@ nav ul li {
   	line-height: 1;
     padding-left: 1em;
     padding-right:1em;
+    	display: flex;
+
 
   }
 
 
 /* Navigation */
 
+body {
+  max-width: 100%;
+    font-family: 'Sanchez', serif;
+    margin:0;
+    min-width: 250px;
+
+   }
 
 /* Index Hero */
 
 .hero-image {
-    height: 40vh;
+    height: 60vh;
     background-image: url("../images/daycare-D1-stock1-1913.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,15 +144,7 @@ nav ul li {
   font-family: 'Sanchez', serif;
 }
 
-.hero-image h1 {
-  font-family: 'Droid Serif', serif;
-  letter-spacing: 2px;
-  color:white;
-  padding-bottom:0em;
-    margin-top: 0em;
-      letter-spacing: 2px;
 
-}
 
 
 
@@ -149,12 +157,14 @@ nav ul li {
 
 .hero-image__text h1{
     z-index: 100;
-    padding: 1em;
+    padding-top: 2em;
     color: white;
     font-family: 'Droid Serif', serif;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
-    text-shadow: .5px .5px grey;
+    text-shadow: 1px 1px 1px grey;
+    text-align: center;
+    margin: 0 auto;
 
 }
 
@@ -163,16 +173,17 @@ nav ul li {
     padding: 1em;
     color: white;
     font-family: 'Sanchez', serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     text-shadow: .5px .5px grey;
+  }
 
 /* All this does is add a 50% black background on top of the image */
 .hero-image:after {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(100,100,100,.3);
+
     top: 0;
     left: 0;
     display: block;
@@ -180,7 +191,7 @@ nav ul li {
 }
 
 .hero-paragraph {
-  margin:  5em 1em 5em 1em;
+  margin:  1em 1em 1em 1em;
   line-height: 2em;
 
 }
@@ -262,7 +273,7 @@ nav ul li {
 }
 
 .button {
-    padding: 1em 7em 1em 7em;
+    padding: 2% 90% 2% 90% ;
     display: inline-block;
     background-color: rgb(35,95,97);
     color: white;
@@ -278,7 +289,10 @@ nav ul li {
 }
 
 .button2 {
-    padding: .5em .8em .5em .8em;
+    padding-left: 43%;
+    padding-right: 43%;
+    padding-top:.7em;
+    padding-bottom:.7em;
     background-color: rgb(35,95,97);
     color: white;
     	border-radius: 3px;
@@ -287,7 +301,12 @@ nav ul li {
     font-family: 'Sanchez', serif;
     transition: .3s background-color ease-in-out;
     letter-spacing: 2px;
-    margin-top: -27px;
+  }
+
+  .button_buffer {
+      margin:1.2em 0em 1.2em 0em;
+         text-align: center;
+
   }
 
 
@@ -308,7 +327,7 @@ nav ul li {
 .news {
   background-color: rgb(240,240,240);
   padding:1em;
-  margin-top: 1em;
+
   line-height: 1.8em;
 }
 
@@ -332,7 +351,7 @@ nav ul li {
 }
 
 .test {
-  padding: 1em;
+  padding:1em;
   background: linear-gradient(to right, rgb(208,134,135) 0%,rgb(208,134,160) 89%);
   color:white;
   font-size: 1.8em;
@@ -340,14 +359,12 @@ nav ul li {
 }
 
 .girl {
-  margin-top:5em;
 width:100%;
   display:flex;
   flex-flow:row wrap;
 }
 .section2 {
   display:flex;
-  margin-top:2em;
 }
 
 .block {
@@ -417,8 +434,8 @@ height: 50%;
 footer {
   background: linear-gradient(to right, rgb(151,201,171) 0%,rgb(35,95,97) 89%);
   color: white;
-  padding: 1em;
-  margin-top:2em;
+  padding: 1em 0em 1em 0em;
+  margin-top:0em;
    text-align: center;
    line-height: 1.6em;
    width:100%;
