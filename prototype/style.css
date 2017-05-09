@@ -53,6 +53,17 @@ color:rgb(208,134,135)
 
 }
 
+h6
+{
+  color:; rgb(135,135,135);
+  text-transform:uppercase;
+  font-family: 'Droid Serif', serif;
+  font-size:1.4em;
+  border-bottom-style: dotted;
+  padding-bottom:1em;
+      letter-spacing: 1px;
+}
+
 
 
 
@@ -97,6 +108,20 @@ nav {
 
 }
 
+.group {
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+}
+
+.group:before, .group:after {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 
 nav a {
 	text-decoration: none;
@@ -105,7 +130,7 @@ nav a {
 	font-size: 1em;
 	font-family: 'Sanchez', serif;
 	text-transform: uppercase;
-
+text-align: center;
   transition: all .2s ease;
 transition-property: all;
 transition-duration: 0.2s;
