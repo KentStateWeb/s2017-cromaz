@@ -98,10 +98,10 @@ ul {
 nav {
 
 	font-family: 'Sanchez', serif;
-  padding: 0px;
+  padding: .5em;
   margin: 0px;
   text-align: center;
-  display:inline-block;
+
   vertical-align:top;
 
 }
@@ -190,7 +190,7 @@ body {
 
 .hero-image__text h1{
     z-index: 100;
-    padding-top: 2em;
+    padding-top: 0em;
     color: white;
     font-family: 'Droid Serif', serif;
     font-size: 4em;
