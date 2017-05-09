@@ -201,7 +201,7 @@ body {
   align-items: center;
   justify-content: center;
     height: 100%;
-    background-color: rgba(135,135,135,0.3); 
+    background-color: rgba(135,135,135,0.3);
 }
 
 
@@ -225,10 +225,11 @@ body {
     z-index: 100;
     color: white;
     font-family: 'Sanchez', serif;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     text-shadow: 1px 1px 1px grey;
-    padding-bottom:1em;
+    padding: 1em .5em 1em .5em;
+    max-width:450px;
   }
 
 /* All this does is add a 50% black background on top of the image */
