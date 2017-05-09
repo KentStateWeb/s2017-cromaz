@@ -11,7 +11,7 @@ header{
     padding-right:50%;
 
     margin-bottom:1em;
-    height: 15px;
+    height: 20px;
     background: linear-gradient(to right, rgb(208,134,135) 0%,rgb(208,134,160) 89%);
     color:white;
     text-align:center;
@@ -467,7 +467,7 @@ footer a{
 
 }
 
-@media screen and (min-width: 500px) {
+/@media screen and (min-width: 500px) {
 	nav a {
 		font-size: 1.1em;
 	}
