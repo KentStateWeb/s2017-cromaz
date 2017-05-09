@@ -137,6 +137,11 @@ transition-delay: initial;
 
 }
 
+nav a:hover, nav a:focus, .active a {
+	color: rgb(151,201,171);
+
+}
+
 nav ul li {
   	text-align: center;
     font-size: .8em;
@@ -150,6 +155,15 @@ nav ul li {
     	display: flex;
 
 
+  }
+
+  nav ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	margin: 0 auto;
+  	text-align: center;
+  	display: flex;
   }
 
 
@@ -489,160 +503,86 @@ footer a{
 
 }
 
-/@media screen and (min-width: 500px) {
-	nav a {
-		font-size: 1.1em;
-	}
-}
+@media screen and (min-width: 445px){
 
-nav a:hover, nav a:focus, .active a {
-	color: rgb(151,201,171);
-
-}
-
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	margin: 0 auto;
-	text-align: center;
-	display: flex;
-	/*margin-bottom: .5em;
-	width: 100%;
-	flex-wrap: wrap;
-
-
-}
-
-nav ul li {
-	text-align: center;
-  font-size: .8em;
-	width:75%; /* was 25%
-	padding-top: .25em;
-	margin-bottom: .5em;
-  margin-top:.35em;
-	line-height: 1;
-  padding-left: 1em;
-  padding-right:1em;
-
-}
-
-nav ul li:before {
-	content: none;
-}
-
-
-
-nav ul li a.active {
-	font-weight: bold;
-}
-
-
-nav ul li:last-child:after {
-	content: "";
-	width: 0;
-	padding: 0;
-}
-
-@media screen and (min-width:600px) {
-
-.logo {
-  width:45px;
-  display: inline;
-  white-space: nowrap;
-  font-family: 'Droid Serif', serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 100;
-  align: center;
-}
-
-nav a {
-  font-size: 1.2em;
-}
-nav {
-  margin-top: .35em;
-  margin-bottom: 1.3em;
-    padding-top: .1em;
-    position:absolute;
-    right:20px;
-}
-
-}
-
-@media screen and (min-width:650px) {
-
-	nav {
-		padding: .5em;
-		max-width: 550px;
-	}
-	nav ul {
-		width: auto;
-		justify-content: space-between;
-	}
-	nav ul li {
-		width: inherit;
-	}
-
-}
-
-
-
-@media screen and (min-width:880px) {
-	nav {
-		background-color: inherit;
-		border-top: none;
-		margin-top: 0em;
-		margin-bottom: inherit;
-		margin: inherit;
-		padding-right: 0;
+  nav{
     font-size: 1.2em;
-    padding-top: 1em;
-	}
+  }
+}
 
-	nav ul {
-		margin-right: 0;
-	}
-
-	nav ul li:after {
-		padding-left: 1em;
-		padding-right: 1em;
-
-	}
-
-	nav a {
-		font-size: 1.15em;
-	}
+@media screen and (min-width: 525px) {
 
   .logo {
-    width:65px;
-    display: inline;
-    white-space: nowrap;
+    width:55px;
     font-family: 'Droid Serif', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 100;
-    align: center;
-    margin: .25%;
+    margin:auto;
+    padding-bottom:0em;
+    padding-left:1em;
   }
+
+
+  nav {
+
+  	font-family: 'Sanchez', serif;
+    padding: .5em;
+    margin: 0px;
+    text-align: center;
+display:inline-block;
+    vertical-align:top;
+
+  }
+  header{
+         padding:0em 0em 0em 0em;
+        text-align: left;
+     }
+
+     nav {
+
+     	font-family: 'Sanchez', serif;
+       padding: .5em;
+       margin: 0px;
+       text-align: center;
+position: absolute;
+right: 10px;
+       vertical-align:middle;
+       display: inline-block;
+       font-size: 1.2em;
+
+     }
+
+     .line{
+
+         padding-left:50%;
+         padding-right:50%;
+
+         margin-bottom:.2em;
+         height: 20px;
+         background: linear-gradient(to right, rgb(208,134,135) 0%,rgb(208,134,160) 89%);
+         color:white;
+         text-align:center;
+     }
+
+
+@media screen and (min-width:600px) {
+
+
+
+
+
+@media screen and (min-width:650px) {
+
+
 
 }
 
+@media screen and (min-width:880px) {
+}
+
 @media screen and (min-width: 1200px) {
-	nav {
-		margin-bottom: 0;
-    text-align: left;
-	}
 
-
-
-	nav a {
-		font-size: 1.2em;
-	}
-
-	nav ul {
-		flex-wrap: nowrap;
-	}
 
 
 
