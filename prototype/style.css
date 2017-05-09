@@ -460,11 +460,18 @@ max-width: 400px;
 
 }
 
+.team1img p{
+  max-width: 800px;
+}
+
 .team2img {
   margin-top:3em;
   width: 100%;
   max-width: 650px;
 
+}
+.team2img p{
+  max-width: 800px;
 }
 
 .team3img {
@@ -472,6 +479,9 @@ max-width: 400px;
   width: 100%;
   max-width: 650px;
 
+}
+.team3img p{
+  max-width: 800px;
 }
 
 .team4img {
@@ -481,7 +491,9 @@ max-width: 400px;
 
 
 }
-
+.team4img p{
+  max-width: 800px;
+}
 
 
 footer {
