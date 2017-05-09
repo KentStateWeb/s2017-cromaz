@@ -60,6 +60,8 @@ h6
   font-family: 'Sanchez', serif;
   font-size:.8em;
       letter-spacing: 1px;
+      margin-top:1em;
+      margin-bottom:0;
 }
 
 
@@ -419,6 +421,7 @@ body {
 width:100%;
   display:flex;
   flex-flow:row wrap;
+  margin:0;
 }
 .section2 {
   display:flex;
