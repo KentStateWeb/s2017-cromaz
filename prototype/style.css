@@ -359,6 +359,7 @@ body {
     transition: .3s background-color ease-in-out;
     letter-spacing: 2px;
     text-align: center;
+    position: normal;
   }
 
   .button_buffer {
@@ -434,7 +435,8 @@ width:100%;
 }
 
 .block {
-  display:inline-block;
+
+
 }
 
 /*
