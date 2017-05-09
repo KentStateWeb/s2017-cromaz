@@ -274,8 +274,8 @@ body {
 }
 
 .button {
-  padding-left: 37%;
-  padding-right: 37%;
+  padding-left: 40%;
+  padding-right: 40%;
   padding-top:.7em;
   padding-bottom:.7em;
   background-color: rgb(35,95,97);
@@ -292,8 +292,8 @@ body {
 }
 
 .button2 {
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-left: 37%;
+    padding-right: 37%;
     padding-top:.7em;
     padding-bottom:.7em;
     background-color: rgb(35,95,97);
