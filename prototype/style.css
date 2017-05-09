@@ -57,10 +57,8 @@ h6
 {
   color:; rgb(135,135,135);
   text-transform:uppercase;
-  font-family: 'Droid Serif', serif;
-  font-size:1.4em;
-  border-bottom-style: dotted;
-  padding-bottom:1em;
+  font-family: 'Sanchez', serif;
+  font-size:.8em;
       letter-spacing: 1px;
 }
 
@@ -108,7 +106,7 @@ nav {
 
 }
 
-.group {
+/*.group {
   display:flex;
   flex-wrap:wrap;
   text-align: center;
@@ -121,7 +119,7 @@ nav {
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
-}
+}*/
 
 nav a {
 	text-decoration: none;
