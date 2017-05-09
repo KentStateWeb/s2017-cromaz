@@ -620,6 +620,10 @@ right: 10px;
 
        }
 
+       .news p {
+         max-width:1000px;
+       }
+
 
          blockquote {
            color:white;
@@ -709,8 +713,23 @@ right: 10px;
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
 
+
+  .girl {
+  width:50%;
+    display:flex;
+    flex-flow:row wrap;
+    margin:0;
+    display:block;
+  }
+
+
+  .section2 {
+    display:flex;
+    flex-flow:row wrap;
+
+  }
 
 
 
