@@ -76,6 +76,11 @@ p {
 
 }
 
+.pad
+{
+  padding: 1em;
+}
+
 
 blockquote {
   color:white;
@@ -320,7 +325,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(100,100,100,.3);
+
     top: 0;
     left: 0;
     display: block;
@@ -444,62 +449,33 @@ width:100%;
 
 }
 
-/*
-.team1 {
-margin-top:2em;
-width: 20%;
-height: 20%;
-background-image: url("../images/staff/img_1874.jpg");
-}
 
 
-
-
-.team2 {
-  margin-top:2em;
-  width: 20%;
-  height: 20%;
-  background-image: url("../images/staff/img_1874.jpg");
-}
-
-.team3 {
-  margin-top:2em;
-  width: 20%;
-  height: 20%;
-  background-image: url("../images/staff/img_1874.jpg");
-}
-
-.team4 {
-  margin-top:2em;
-  width: 20%;
-  height: 20%;
-  background-image: url("../images/staff/img_1874.jpg");
-}
-*/
 
 
 .team1img {
 margin-top:2em;
-width: 50%;
-height: 50%;
+width: 100%;
+max-width: 400px;
+
 }
 
 .team2img {
   margin-top:2em;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+
 }
 
 .team3img {
   margin-top:2em;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+
 }
 
 .team4img {
   margin-top:2em;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+
 }
 
 
