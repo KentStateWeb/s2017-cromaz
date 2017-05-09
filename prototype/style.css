@@ -1,11 +1,21 @@
 
 
 header{
-     padding:.8em 0em .8em 0em;
+     padding:0em 0em .8em 0em;
      text-align: center;
    }
 
+.line{
 
+    padding-left:50%;
+    padding-right:50%;
+
+    margin-bottom:1em;
+    height: 15px;
+    background: linear-gradient(to right, rgb(208,134,135) 0%,rgb(208,134,160) 89%);
+    color:white;
+    text-align:center;
+}
 
 .logo {
   width:90px;
