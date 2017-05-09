@@ -332,6 +332,15 @@ body {
     content: "";
 }
 
+.pattern h1
+{
+  color:black;
+  font-family: 'Droid Serif', serif;
+
+  margin-top: 1em;
+    letter-spacing: 2px;
+}
+
 .button {
   padding-left: 40%;
   padding-right: 40%;
