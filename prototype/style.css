@@ -176,6 +176,7 @@ body {
     font-size: 1.5em;
     text-align: center;
     text-shadow: 1px 1px 1px grey;
+    padding-bottom:1em;
   }
 
 /* All this does is add a 50% black background on top of the image */
