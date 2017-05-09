@@ -183,7 +183,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-
+  background-color: rgba(100,100,100,.3);
     top: 0;
     left: 0;
     display: block;
@@ -273,17 +273,18 @@ body {
 }
 
 .button {
-    padding: 2% 90% 2% 90% ;
-    display: inline-block;
-    background-color: rgb(35,95,97);
-    color: white;
-    	border-radius: 3px;
-    text-decoration: none;
-    	text-transform: uppercase;
-    font-family: 'Sanchez', serif;
-    transition: .3s background-color ease-in-out;
-    letter-spacing: 2px;
-
+  padding-left: 43%;
+  padding-right: 43%;
+  padding-top:.7em;
+  padding-bottom:.7em;
+  background-color: rgb(35,95,97);
+  color: white;
+    border-radius: 3px;
+  text-decoration: none;
+    text-transform: uppercase;
+  font-family: 'Sanchez', serif;
+  transition: .3s background-color ease-in-out;
+  letter-spacing: 2px;
 
 
 }
