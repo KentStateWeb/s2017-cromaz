@@ -527,16 +527,9 @@ footer a{
   }
 
 
-  nav {
 
-  	font-family: 'Sanchez', serif;
-    padding: .5em;
-    margin: 0px;
-    text-align: center;
-display:inline-block;
-    vertical-align:top;
 
-  }
+
   header{
          padding:0em 0em 0em 0em;
         text-align: left;
@@ -568,11 +561,66 @@ right: 10px;
          text-align:center;
      }
 
+     .button2 {
+         padding-left: 50px;
+         padding-right: 50px;
+         padding-top:.7em;
+         padding-bottom:.7em;
+         background-color: rgb(35,95,97);
+         color: white;
+         	border-radius: 3px;
+         text-decoration: none;
+         	text-transform: uppercase;
+         font-family: 'Sanchez', serif;
+         transition: .3s background-color ease-in-out;
+         letter-spacing: 2px;
+         text-align: left;
+         position: absolute;
+         right: 15px;
+
+       }
+
+
+       .button {
+         padding-left: 50px;
+         padding-right: 50px;
+         padding-top:.7em;
+         padding-bottom:.7em;
+         background-color: rgb(35,95,97);
+         color: white;
+           border-radius: 3px;
+         text-decoration: none;
+           text-transform: uppercase;
+         font-family: 'Sanchez', serif;
+         transition: .3s background-color ease-in-out;
+         letter-spacing: 2px;
+         text-align: left;
+         position: absolute;
+         right: 5em;
+
+
+       }
+
+       .news {
+         background-color: rgb(240,240,240);
+         padding:1em 5em 5em 5em;
+
+         line-height: 1.8em;
+       }
+
+       .button_buffer {
+           margin:0em 0em 6em 0em;
+              text-align: center;
+
+       }
+
+     }
+
 
 @media screen and (min-width:600px) {
 
 
-
+}
 
 
 @media screen and (min-width:650px) {
