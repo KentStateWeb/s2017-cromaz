@@ -416,7 +416,7 @@ body {
 }
 
 .test {
-  padding:1em;
+    padding: .2em .2em 1em .5em;
   background: linear-gradient(to right, rgb(208,134,135) 0%,rgb(208,134,160) 89%);
   color:white;
   font-size: 1.8em;
@@ -633,6 +633,14 @@ right: 10px;
 
          }
 
+         .test {
+             padding: 1em .2em 1em .5em;
+           background: linear-gradient(to right, rgb(208,134,135) 0%,rgb(208,134,160) 89%);
+           color:white;
+           font-size: 1.8em;
+           text-align:center;
+         }
+
      }
 
 
@@ -672,6 +680,32 @@ right: 10px;
       background-size: cover;
       position: relative;
   }
+
+  .hero-image__text h1{
+      z-index: 100;
+      padding-top: 0em;
+      color: white;
+      font-family: 'Droid Serif', serif;
+      font-size: 4em;
+      text-align: center;
+      text-shadow: 1px 1px 1px grey;
+      text-align: center;
+      margin: 0 auto;
+
+
+  }
+
+  .hero-image__text p{
+      z-index: 100;
+      color: white;
+      font-family: 'Sanchez', serif;
+      font-size: 1.2em;
+      text-align: center;
+      text-shadow: 1px 1px 1px grey;
+      padding: 1em .5em 1em .5em;
+      max-width:380px;
+      margin:0 auto;
+    }
 
 }
 
