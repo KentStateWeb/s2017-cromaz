@@ -336,7 +336,6 @@ body {
 {
   color:black;
   font-family: 'Droid Serif', serif;
-
   margin-top: 1em;
     letter-spacing: 2px;
 }
@@ -375,6 +374,26 @@ body {
     text-align: center;
     position: normal;
   }
+
+
+.box1 {
+  height:30;
+  width:30;
+  background-color: black;
+}
+
+.box2 {
+  height:30;
+  width:30;
+  background-color: black;
+}
+
+.box3 {
+  height:30;
+  width:30;
+  background-color: black;
+}
+
 
   .button_buffer {
       margin:1.2em 0em 1.2em 0em;
